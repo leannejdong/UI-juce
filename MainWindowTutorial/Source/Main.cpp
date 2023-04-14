@@ -7,6 +7,7 @@
 */
 
 #include <JuceHeader.h>
+#include "MainComponent.h"
 
 //==============================================================================
 class MainWindowTutorialApplication  : public juce::JUCEApplication

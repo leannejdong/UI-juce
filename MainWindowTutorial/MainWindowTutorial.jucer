@@ -5,6 +5,10 @@
   <MAINGROUP id="pc4oEQ" name="MainWindowTutorial">
     <GROUP id="{10772504-1EF4-192A-033E-4EDD6509E11F}" name="Source">
       <FILE id="UKeaLK" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="LotPI2" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="mj7LsN" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"
+            xcodeResource="0"/>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
