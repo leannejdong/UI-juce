@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="u013WV" name="cmp0" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="ja9hLj" name="cmp0">
+    <GROUP id="{340C9253-D6A5-4A46-C1F5-FD400F8728D5}" name="Source">
+      <FILE id="hWrp1j" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="KYpEZD" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="nOb7Tr" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="cmp0"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="cmp0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Softwares/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
